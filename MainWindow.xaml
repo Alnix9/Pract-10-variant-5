@@ -1,0 +1,16 @@
+﻿<Window x:Class="Генеральский_практическая_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Генеральский_практическая_10"
+        mc:Ignorable="d"
+        Title="Генеральский практическая 10" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="arrayList" Margin="0,0,558,217" />
+       <Button Content="Создать массив" Click="CreateArray" Margin="247,0,381,385" />
+        <Button Content="Найти кол-во отр и пол чисел" Margin="247,54,381,331" Click="FindQuantity" />
+        <Button Content="О программе" Click="About_Programm" Margin="247,108,381,277" />
+        <Button Content="Выход" Click="Exit" Margin="247,168,381,217" />
+    </Grid>
+</Window>
